@@ -85,5 +85,9 @@ let storeAndFetch = () => {
     fetchTodolist()
 }
 
+elements.inputTodo.addEventListener('keypress', e =>
+  e.keyCode === 13 ? addTask() : {}
+)
+
 fetchTodolist()
 elements.inputTodo.focus()
