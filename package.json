@@ -1,0 +1,34 @@
+{
+  "name": "todolista",
+  "version": "1.0.0",
+  "description": "Aplikasi todo list sederhana yang di buat pada acara Dev Camp di Surabaya",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariezncahyo/todolista.git"
+  },
+  "keywords": [
+    "todolista",
+    "todo",
+    "sederhana",
+    "todo",
+    "list"
+  ],
+  "author": "ariezncahyo <ariezncahyo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariezncahyo/todolista/issues"
+  },
+  "homepage": "https://github.com/ariezncahyo/todolista#readme",
+  "dependencies": {
+    "reload": "^3.0.3",
+    "serve": "^11.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
